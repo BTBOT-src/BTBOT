@@ -1,4 +1,5 @@
-# BTBOTWe have put the code and executable files of BTBOT on the docker hub website. You only need to get the docker image by following the instructions below.
+# BTBOT
+We have put the code and executable files of BTBOT on the docker hub website. You only need to get the docker image by following the instructions below.
 
 `docker pull btbot123/btbot`
 
