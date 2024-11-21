@@ -1,57 +1,75 @@
-# BTBOT
-We have put the code and executable files of BTBOT on the docker hub website. You only need to get the docker image by following the instructions below.
+# BtBot
+
+Our work is to generate a behavior tree program consistent with the positive and negative example specifications from the natural language description provided by the user.
+
+Our work has been deployed in dockers. Download our dockers through the following command
 
 `docker pull btbot123/btbot`
 
-We package the project into an executable file. You only need to execute the corresponding instructions to output the task and its corresponding behavior tree program in the console.
+In this dockers, the experimental part of the BtBot paper has been packaged into executable files. Next, we will introduce the use of executable files in detail.
 
-Before executing the executable file, you need to prepare the following information:
+When running the executable file, you need to prepare the following resources:
 
-Call the URL corresponding to LLM, your API key.
+--url "https://* * * " The address of the LLM called
 
-The following will show the execution results of BTBOT by solving the demo example task.
+--key " * * * " --llm "gpt-4o" The API key for calling LLM
 
-For example, by executing the following command, solve the **demo** task (automatic charging task, consistent with the paper)
+Enter the project directory:
 
-`cd /BTBOT`
+`cd /BTBOT
 
-`./dist/main_pre_check_change --task "demo" --url "https://* * *" --key "* * *" --llm "gpt-4o"`
+## demo
 
-Enter the address of LLM in the url field, for example, you use the openAI API to call ChatGPT.
+For the automatic charging task in the paper, you can use the following command to view the running results of BTBOT.
 
-Enter the API key in the key field.
-Finally, the llm field corresponds to the model that calls LLM. You can switch to other models such as gpt-4o, gpt-3.5-turbo, gpt-4-turbo, etc.
+`./dist/main_pre_check_change --task "demo" --url "https://* * *" --key "* * *" --llm "gpt-4o" --data-path "/BTBOT/data"`
 
-The task field corresponds to the task name of the task to be solved. To solve other tasks, you only need to modify the content of the task field. For example, "charge", "demo", "doTask", "get_food", all tasks are recorded in the benchmar.xlsx file.
+In this example, the output is:
 
-At the same time, we provide the following scripts and executable files to show the corresponding output effects on the 70 tasks of the benchmark. The output content is: task name task corresponding BT.
+['?', ['>', 'lowBattery', ['?', 'atCharge', 'goToCharge'], 'charging'], 'doOtherTask']
 
-`cd /BTBOT`
+In addition, if you want to try to solve other tasks, such as: charge, ballFound, doTask, findfood, firefighting, please modify the task field in the command to solve the corresponding task.
 
-`./dist/(A exe file) --task "demo" --url "https://* * *" --key "* * *" --llm "gpt-4o"`
+### BTBOT effect
 
-Among them, please replace the content of A exe file with a specific executable file:
+#### benchmark
 
-main: BTBOT's executable file in the benchmark. **BTBOT**
+The benchmark used in this work contains 70 tasks with different difficulties and scenarios. Please use the following command to view the distribution of the benchmark.
 
-main_LLMgen: corresponds to the process of directly using LLM to generate BT in the baseline in the paper. **GPT-4o-BT/BTLLMGen**
+`python box2.py`
 
-main_noPrune: corresponds to the process of not using pruning technology in the ablation experiment section in the paper. **NoPrune**
+The program execution will get a benchmark.pdf file.
 
-main_noPattern: corresponds to the process of not using language patterns in the ablation experiment section in the paper. **NoPattern**
+#### BTBOT robustness to different LLMs
 
-main_noModifyNodes: corresponds to the process of not using modification control nodes for repair in the ablation experiment section in the paper. **NoControlRepair**
+In this work, the impact of LLMs with different performance on BTBOT is discussed. Execute the following command to view the impact of different LLMs on BTBOT and compare it with the effect of LLM generating BT programs. Among them, the files that the executable file depends on are located in the BTBOT/data directory.
 
-main_noExpandSketch: corresponds to the process of not using extended behavior tree structure for repair in the ablation experiment section in the paper. **NoStructureRepaire**
+`./dist/main_LLM3 --result "result" --url "https://* * *" --key "* * *" --llm "gpt" --data-path "/BTBOT/data"`
 
-main_noRepair: corresponds to the process of not using any sketch repair technology in the ablation experiment section in the paper. **NoRepair**
+The executable file will eventually output a piece of latex code, corresponding to the result shown in Figure 10.
 
-At the same time, execute the following instructions to show the results of MCTS-Syn technology on the benchmark.
+## Baseline
 
-`cd /BTBOT/benchmark/baseline/BehaviorTree-Synthesis/BT_Synthesis/src`
+#### Comparison with fine-tuning LLM baseline
 
-`bash script.sh`
+First, we compare with the existing LLM fine-tuning technology BTGenBot. On the test set of BTGenBot, we use BTBOT to solve these tasks. You can view the output of BTBOT on the test set through the following command.
 
+`./dist/main_BTGENBOT --result "result" --url "https://* * *" --key "* * *" --llm "gpt-4o" --data-path "/BTBOT/data"`
 
+#### Comparison with other BT generation baselines
 
-Thank you very much for your interest in our work. Please contact me if you have any questions.
+In addition, we also compare with the existing work (MCTS-Syn) that generates BT using Monte Carlo tree search technology and the baseline that directly generates BT using LLM. Use the following command to view the latex code corresponding to the operation and results of the experiment.
+
+`./dist/baseline --result "result" --url "https://* * *" --key "* * *" --llm "gpt-4o" --data-path "/BTBOT/data"`
+
+## Ablation Study
+
+In this work, we proposed three key technologies, which resulted in five BTBOT variants. You can view the running results and effect display by executing the following command.
+
+`./dist/ablation --result "result" --url "https://* * *" --key "* * *" --llm "gpt-4o" --data-path "/BTBOT/data"`
+
+Since the paper uses latex to draw pictures, Python is used here to draw pictures, which may be slightly different, but the data and effect display are not much different.
+
+## User Study
+
+We recruited 12 professional and non-professional behavior tree users to conduct user tests by handwriting target behavior trees and using BTBOT to generate behavior trees. The results are stored in the /BTBOT/data directory. Experimental results show that BTBOT is very helpful in helping users generate desired BTs.
