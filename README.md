@@ -30,7 +30,8 @@ In this example, the output is:
 
 The graphical representation of the behavior tree program is shown below.
 
-![image](https://github.com/BTBOT-src/BTBOT/blob/main/BT1.png)
+<img src="https://github.com/BTBOT-src/BTBOT/blob/main/BT1.png" alt="示例图片" width="400">
+
 
 
 In addition, if you want to try to solve other tasks, such as: ***charge, ballFound, doTask, findfood, firefighting***, please modify the task field in the command to solve the corresponding task.
