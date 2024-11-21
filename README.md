@@ -16,7 +16,9 @@ When running the executable file, you need to prepare the following resources:
 
 Enter the project directory:
 
-`cd /BTBOT
+···
+cd /BTBOT
+···
 
 ## demo
 
