@@ -27,7 +27,7 @@ For the automatic charging task in the paper, you can use the following command 
 
 In this example, the output is:
 
-['?', ['>', 'lowBattery', ['?', 'atCharge', 'goToCharge'], 'charging'], 'doOtherTask']
+**['?', ['>', 'lowBattery', ['?', 'atCharge', 'goToCharge'], 'charging'], 'doOtherTask']**
 
 The graphical representation of the behavior tree program is shown below.
 
