@@ -30,7 +30,7 @@ In this example, the output is:
 
 The graphical representation of the behavior tree program is shown below.
 
-<img src="https://github.com/BTBOT-src/BTBOT/blob/main/BT1.png" alt="示例图片" width="400">
+<img src="https://github.com/BTBOT-src/BTBOT/blob/main/BT1.png" alt="btbot" width="300">
 
 
 
@@ -66,6 +66,8 @@ First, we compare with the existing LLM fine-tuning technology BTGenBot. On the 
 
 The executable file output results are redirected to BTBOT_BTGenBot.txt. The file stores BTBOT's solution to the test tasks (9 test tasks) used in the BTGenBot work, as well as a latex code for statistical analysis and comparison of the two works. Among them, the successfully solved tasks are represented by **√**.
 
+<img src="https://github.com/BTBOT-src/BTBOT/blob/main/BT1.png" alt="btgenbot" width="300">
+
 ### Comparison with other BT generation baselines
 
 In addition, we also compare with the existing work that generates BT using Monte Carlo tree search technology (MCTS-Syn) and the baseline that directly generates BT using LLM (GPT-4o-Syn). Use the following command to view the latex code corresponding to the experiment operation and results.
@@ -73,6 +75,8 @@ In addition, we also compare with the existing work that generates BT using Mont
 ```./dist/baseline --result "result" --url "https://* * *" --key "* * *" --llm "gpt-4o" --data-path "/BTBOT/data" >> baseline.txt```
 
 The executable file output result is redirected to baseline.txt. Similarly, a section of latex code is output to statistically analyze the performance of multiple baselines on the benchmark. This section of latex generates a picture, in which the horizontal axis represents the time required to solve a task. The vertical axis represents how many tasks can be solved within a given time. Compare the performance of BTBOT and baselin work from the perspectives of efficiency and success rate.
+
+<img src="https://github.com/BTBOT-src/BTBOT/blob/main/btgenbot.png" alt="baseline" width="300">
 
 
 
@@ -85,9 +89,12 @@ In this work, we proposed three key technologies, which resulted in five BTBOT v
 
 In the output file, the executable file outputs the solution of each variant (including BTBOT) to the benchmark, and the statistical results are output as the file Figure13:Ablation_study_of_BTBOT.png.
 
+<img src="https://github.com/BTBOT-src/BTBOT/blob/main/BT1.png" alt="ablation" width="300">
+
 ## User Study
 
 We recruited 12 professional and non-professional behavior tree users to conduct user testing by handwriting target behavior trees and using BTBOT to generate behavior trees. The results are stored in the /BTBOT/data/userstudy.zip directory. The results of the user test are shown in the figure below. As can be seen from the figure, BTBOT is very helpful in helping users generate the desired BT.
+<img src="https://github.com/BTBOT-src/BTBOT/blob/main/userstudy.png" alt="userstudy" width="300">
 
 
 
