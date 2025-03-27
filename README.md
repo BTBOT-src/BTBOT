@@ -84,6 +84,9 @@ The executable file output result is redirected to baseline.txt. Similarly, a se
 
 <img src="https://github.com/BTBOT-src/BTBOT/blob/main/baseline.png" alt="btgenbot" width="400">
 
+For the environment shown in the figure below,
+<img src="https://github.com/BTBOT-src/BTBOT/blob/main/robot.png" alt="btgenbot" width="400">
+There is a task to be solved：When the robot is in a low battery state, it should check whether it is at the charging station or move to the charging station and finally start charging; otherwise, it should sequentially navigate to the room A, B and C and patrol in each.
 
 
 
