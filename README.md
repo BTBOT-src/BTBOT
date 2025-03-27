@@ -31,7 +31,7 @@ In this example, the output is:
 
 The graphical representation of the behavior tree program is shown below.
 
-<img src="https://github.com/BTBOT-src/BTBOT/blob/main/BT1.png" alt="btbot" width="300">
+<img src="https://github.com/BTBOT-src/BTBOT/blob/main/BT3.png" alt="btbot" width="300">
 
 
 
