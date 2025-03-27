@@ -90,7 +90,7 @@ For the environment shown in the figure below,
 
 There is a task to be solved：When the robot is in a low battery state, it should check whether it is at the charging station or move to the charging station and finally start charging; otherwise, it should sequentially navigate to the room A, B and C and patrol in each. BtBot generates the BT program as shown below. However, MCTS-Syn and BTLLMGen-GPT4o fail to synthesize the target BT.
 
-<img src="https://github.com/BTBOT-src/BTBOT/blob/main/BT1.png" alt="btgenbot" width="600">
+<img src="https://github.com/BTBOT-src/BTBOT/blob/main/BT2.png" alt="btgenbot" width="600">
 
 
 
