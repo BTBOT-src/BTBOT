@@ -75,7 +75,7 @@ The executable file output results are redirected to BTBOT_BTGenBot.txt. The fil
 
 ### Comparison with other BT generation baselines
 
-In addition, we also compare with the existing work that generates BT using Monte Carlo tree search technology (MCTS-Syn) and the baseline that directly generates BT using LLM (GPT-4o-Syn). Use the following command to view the latex code corresponding to the experiment operation and results.
+In addition, we also compare with the existing work that generates BT using Monte Carlo tree search technology (MCTS-Syn) and the baseline that directly generates BT using LLM (BTLLMGen-GPT4o). Use the following command to view the latex code corresponding to the experiment operation and results.
 
 ```./dist/baseline --result "result" --url "https://* * *" --key "* * *" --llm "gpt-4o" --data-path "/BTBOT/data" >> baseline.txt```
 
