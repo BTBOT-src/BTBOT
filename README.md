@@ -46,6 +46,7 @@ The benchmark used in this work contains 70 tasks with different difficulties an
 ```python box2.py```
 
 The data analysis of 70 tasks in the benchmark is shown in the figure below. For detailed data, please refer to the benchmark.pdf.
+
 <img src="https://github.com/BTBOT-src/BTBOT/blob/main/benchmark1.png" alt="btbot" width="500"><img src="https://github.com/BTBOT-src/BTBOT/blob/main/benchmark.png" alt="btbot" width="500">
 
 The program execution will get a benchmark.pdf file, which stores an image and shows the complexity of the nodes contained in the task in the form of a box plot. Its horizontal axis represents four scenarios, Movement (tasks related to movement), Transmission (tasks related to delivering items), Manipulation (tasks related to robot arm operation), Priority (tasks related to the robot's environment that requires decision-making)
