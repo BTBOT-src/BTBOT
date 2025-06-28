@@ -66,7 +66,7 @@ python3 box2.py
 
 
 
-<hr style="height:4px;border-width:0;color:gray;background-color:gray">
+
 
 ### RQ1
 
@@ -88,13 +88,12 @@ python3 box2.py
 
 
 
-<hr style="height:4px;border-width:0;color:gray;background-color:gray">
 
 ### RQ2
 
 - RQ2 discusses the comparison between the effects of BtBot and existing works.
 
----
+
 
 #### RQ2_1
 
@@ -110,7 +109,7 @@ python3 box2.py
 ![image-KICK](https://github.com/BTBOT-src/BTBOT/blob/main/RQ2_1.png)
 
 
----
+
 
 #### RQ2_2
 
@@ -133,7 +132,7 @@ python3 box2.py
 
 
 
-<hr style="height:4px;border-width:0;color:gray;background-color:gray">
+
 
 ### RQ3
 
@@ -155,7 +154,6 @@ python3 box2.py
 
 
 
-<hr style="height:4px;border-width:0;color:gray;background-color:gray">
 
 ### User Study
 
