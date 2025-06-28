@@ -156,8 +156,9 @@ python3 box2.py
 
 ### User Study
 
-- The data of the two user studies are provided in the directory **/BTBOT/data** in the docker. The **userStudy.zip** stores the data of the user study in the paper, where *T or 1* indicates task success and *F or 0* indicates task failure.
-- The **US_repeat.zip** stores the data supplemented in the review stage. *(In the supplementary experiment, participants were provided with counterexamples for failed tasks and were allowed to attempt the task multiple times. 0 indicates task failure and 1 indicates successful task resolution.)*
+- The data of the two user studies are provided in **/BTBOT/data** in the docker.
+- The **userStudy.zip** stores the data of the user study in the paper, where *T or 1* indicates task success and *F or 0* indicates task failure.
+- The **US_repeat.zip** stores the data supplemented in the review stage. *(In the supplementary experiment, participants were provided with counterexamples for failed tasks and were allowed to attempt the task multiple times.)* 0 indicates task failure and 1 indicates successful task resolution.
 -  There are many reasons for task failure by Manual, including behavior tree grammar errors, illegal characters, semantics not consisted with task specifications, etc. As a result, some tasks do not have specific error analysis.
   - The user study in the paper consistent with **Fig.16** is shown in the first figure below. 
   - The last two figures are the results by Manual and BtBot supplemented in the review stage (Participants can make repeated modifications).
