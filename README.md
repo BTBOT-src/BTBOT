@@ -10,7 +10,7 @@ Our work has been deployed in a **Docker container** and packaged as an **image*
 docker pull btbot123/btbot
 ```
 
-To reproduce this work, you need to have the **OpenAI API key** to prompt LLM (GPT). Below, we will provide ***Kick-the-Tires*** to briefly show how BtBot solves tasks and generates BTs, and provide ***Full Instructions*** to provide a detailed introduction to the experimental replication process in the paper.
+To reproduce this work, you need to have an **OpenAI API key** to prompt LLM (GPT). Below, we will provide ***Kick-the-Tires*** to briefly show how BtBot solves tasks and generates BTs, and provide ***Full Instructions*** to provide a detailed introduction to the experimental replication process in the paper.
 
 Since the timeout of the task in the paper is 3600 seconds, the reproduction of the experiment will take a long time. In order to shorten the time required for reproduction, we provide a version with a task timeout of 360 seconds (which still takes time). In the docker, the **/BTBOT** stores files with a task timeout of 3600 seconds. The **/BTBOT_short** stores files with a task timeout of 360 seconds.
 
