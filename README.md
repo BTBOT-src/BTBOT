@@ -100,7 +100,7 @@ python3 box2.py
 
 - RQ2_1 discusses the comparison between **BtBot** and **BTGenBot** on the BTGenBot's test set tasks. Execute the following command to get the results consistent with **Table 2.** in the paper.
   - The parameters in this command are the same as those in RQ1.
-  -  The result in the paper is the result of calling **GPT-4o** to solve the task.
+  -  The paper employs GPT-4o as the sketch generator for BtBot, so the "--llm" parameter here should be set to "gpt-4o".
 
 ```
 ./dist/RQ2_1 --result "result" --url "***" --key "***" --llm "***" --data-path "/BTBOT/data"
