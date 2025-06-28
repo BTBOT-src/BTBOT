@@ -165,6 +165,7 @@ python3 box2.py
 -  There are many reasons for task failure by Manual, including behavior tree grammar error, illegal characters, semantics not consisted with task specifications, etc. As a result, some tasks do not have specific error analysis.
   - The user study in the paper is shown in the first figure below. 
   - The last two figures are the results by Manual and BtBot supplemented in the review stage (two methods).
+  - 
 ![image-KICK](https://github.com/BTBOT-src/BTBOT/blob/main/US1.png)
 ![image-KICK](https://github.com/BTBOT-src/BTBOT/blob/main/US2.png)
 ![image-KICK](https://github.com/BTBOT-src/BTBOT/blob/main/US3.png)
