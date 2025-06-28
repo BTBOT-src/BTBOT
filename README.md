@@ -1,6 +1,6 @@
 # Readme
 
-**OOPSLA24-25-[#1365 Multi-Modal Sketch-based Behavior Tree Synthesis](https://oopsla2425.hotcrp.com/paper/1365) artifact evaluation**
+**Paper 'Multi-Modal Sketch-based Behavior Tree Synthesis' artifact evaluation**
 
 This artifact evaluation is consistent with the order of the paper and is introduced in the order of **RQ 1 to 4**.
 
