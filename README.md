@@ -81,6 +81,7 @@ python3 box2.py
 ```
 
 - **Output results: **Executing this command will output the same results as **Table 1.** in the terminal, which are the results of using BtBot and BTLLMGen on three different LLMs. As shown in the figure below.
+
 ![image-KICK](https://github.com/BTBOT-src/BTBOT/blob/main/RQ1.png)
 
 
@@ -106,6 +107,7 @@ python3 box2.py
 ```
 
 - **Output:** Executing this command will output the same results as **Table 2.** in the terminal. As shown in the figure below.
+
 ![image-KICK](https://github.com/BTBOT-src/BTBOT/blob/main/RQ2_1.png)
 
 
@@ -123,6 +125,7 @@ python3 box2.py
 ```
 
 - **Output result: **Executing this command will output the result consistent with **Fig.14.** in the paper in the terminal, as shown in the figure below. And **RQ2_2.png** is  generated that can intuitively display the results.
+
 ![image-KICK](https://github.com/BTBOT-src/BTBOT/blob/main/RQ2_2.png)
 
 
@@ -146,7 +149,7 @@ python3 box2.py
 
 - **Output result: **Executing this command will output the result consistent with **Fig.15.** in the paper in the terminal. And **RQ3.png** is generated  that can intuitively display the result.
 
-
+![image-KICK](https://github.com/BTBOT-src/BTBOT/blob/main/RQ3.png)
 
 <hr style="height:4px;border-width:0;color:gray;background-color:gray">
 
