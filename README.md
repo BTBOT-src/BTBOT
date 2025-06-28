@@ -148,7 +148,7 @@ python3 box2.py
 ./dist/RQ3 --result "result" --url "***" --key "***" --llm "***" --data-path "/BTBOT/data"
 ```
 
-- **Output:** Executing this command will output the result consistent with **Fig.15.** in the paper in the terminal. And **RQ3.png** is generated that can intuitively display the result.
+- **Output:** Executing this command will output the result consistent with **Fig.15.** in the paper in the terminal, as shown in the figure below. And **RQ3.png** is generated that can intuitively display the result.
 
 ![image-KICK](https://github.com/BTBOT-src/BTBOT/blob/main/RQ3.png)
 
