@@ -2,7 +2,7 @@
 
 **Paper 'Multi-Modal Sketch-based Behavior Tree Synthesis' artifact evaluation**
 
-This artifact evaluation is consistent with the order of the paper and is introduced in the order of **RQ 1 to 4**.
+This artifact evaluation is consistent with the order of the paper and is **presented following the order of RQ1 to RQ4**.
 
 Our work has been deployed in a **Docker container** and packaged as an **image** for release. You can retrieve the **Docker image** using the following command:
 
@@ -10,11 +10,11 @@ Our work has been deployed in a **Docker container** and packaged as an **image*
 docker pull btbot123/btbot
 ```
 
-To reproduce this work, you need to have the **OpenAI API key** to prompt LLM (GPT). Below, we will give a ***Kick-the-Tires*** to briefly show how BtBot solves tasks and generates BTs, and provide ***Full Instructions*** to provide a detailed introduction to the experimental replication process in the paper.
+To reproduce this work, you need to have the **OpenAI API key** to prompt LLM (GPT). Below, we will provide ***Kick-the-Tires*** to briefly show how BtBot solves tasks and generates BTs, and provide ***Full Instructions*** to provide a detailed introduction to the experimental replication process in the paper.
 
-Since the timeout of the task in the paper is 3600 seconds, the reproduction experiment will take a long time. In order to shorten the time required for reproduction, we provide a version with a task timeout of 360 seconds (This still requires a considerable amount of time). In the docker, the **/BTBOT** stores files with a task timeout of 3600 seconds. The **/BTBOT_short** stores files with a task timeout of 360 seconds.
+Since the timeout of the task in the paper is 3600 seconds, the reproduction of the experiment will take a long time. In order to shorten the time required for reproduction, we provide a version with a task timeout of 360 seconds (which still takes time). In the docker, the **/BTBOT** stores files with a task timeout of 3600 seconds. The **/BTBOT_short** stores files with a task timeout of 360 seconds.
 
-Since the output of LLMs is not **deterministic**, there may be **slight deviations** between the results and the data in the paper, which is **normal**.
+Since the output of LLMs is **not deterministic**, there may be **slight deviations** between the results and the data in the paper, which is **normal**.
 
 Firstly select one of the directories. For example:
 
@@ -157,7 +157,7 @@ python3 box2.py
 ### User Study
 
 - The data of the two user studies are provided in the directory **/BTBOT/data** in the docker. The **userStudy.zip** stores the data of the user study in the paper, where *T or 1* indicates task success and *F or 0* indicates task failure.
-- The **US_repeat.zip** stores the data supplemented in the review stage. *(The supplementary experiment provides participants with counterexamples that are not satisfied when the task fails, and they can try to solve the task multiple times. 0 indicates task failure and 1 indicates successful task resolution.)*
+- The **US_repeat.zip** stores the data supplemented in the review stage. *(In the supplementary experiment, participants were provided with counterexamples for failed tasks and were allowed to attempt the task multiple times. 0 indicates task failure and 1 indicates successful task resolution.)*
 -  There are many reasons for task failure by Manual, including behavior tree grammar errors, illegal characters, semantics not consisted with task specifications, etc. As a result, some tasks do not have specific error analysis.
   - The user study in the paper consistent with **Fig.16** is shown in the first figure below. 
   - The last two figures are the results by Manual and BtBot supplemented in the review stage (Participants can make repeated modifications).
