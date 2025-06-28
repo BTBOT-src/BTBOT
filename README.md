@@ -165,8 +165,8 @@ python3 box2.py
   - The user study in the paper is shown in the first figure below. 
   - The last two figures are the results by Manual and BtBot supplemented in the review stage (two methods).
 ![image-KICK](https://github.com/BTBOT-src/BTBOT/blob/main/US1.png)
-![image-KICK](https://github.com/BTBOT-src/BTBOT/blob/main/RQ2.png)
-![image-KICK](https://github.com/BTBOT-src/BTBOT/blob/main/RQ3.png)
+![image-KICK](https://github.com/BTBOT-src/BTBOT/blob/main/US2.png)
+![image-KICK](https://github.com/BTBOT-src/BTBOT/blob/main/US3.png)
 
 
 <hr style="height:4px;border-width:0;color:gray;background-color:gray">
