@@ -59,7 +59,7 @@ cd BTBOT_short
 python3 box2.py
 ```
 
-- Generate two files, the **benchmark.pdf** corresponds to the distribution in **Fig.11**. The **example_distribution.png** corresponds to the distribution in **Fig.12**.
+- **Output:** Generate two files, the **benchmark.pdf** corresponds to the distribution in **Fig.11**. The **example_distribution.png** corresponds to the distribution in **Fig.12**.
 
 
 
