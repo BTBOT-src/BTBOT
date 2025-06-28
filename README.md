@@ -87,7 +87,7 @@ python3 box2.py
 
 ### RQ2
 
-- RQ2 discusses the comparison between the effects of BtBot and existing works.
+- RQ2 discusses the comparison between the performance of BtBot and existing works.
 
 
 
