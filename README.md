@@ -80,7 +80,7 @@ python3 box2.py
 ./dist/RQ1 --result "result" --url "***" --key "***" --llm "***" --data-path "/BTBOT/data"
 ```
 
-- **Output results: **Executing this command will output the same results as **Table 1.** in the terminal, which are the results of using BtBot and BTLLMGen on three different LLMs. As shown in the figure below.
+- **Output:** Executing this command will output the same results as **Table 1.** in the terminal, which are the results of using BtBot and BTLLMGen on three different LLMs. As shown in the figure below.
 
 ![image-KICK](https://github.com/BTBOT-src/BTBOT/blob/main/RQ1.png)
 
