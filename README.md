@@ -81,7 +81,7 @@ python3 box2.py
 ```
 
 - **Output results: **Executing this command will output the same results as **Table 1.** in the terminal, which are the results of using BtBot and BTLLMGen on three different LLMs. As shown in the figure below.
-
+![image-KICK](https://github.com/BTBOT-src/BTBOT/blob/main/RQ1.png)
 
 
 <hr style="height:4px;border-width:0;color:gray;background-color:gray">
@@ -107,7 +107,7 @@ python3 box2.py
 ```
 
 - **Output:** Executing this command will output the same results as **Table 2.** in the terminal. As shown in the figure below.
-
+![image-KICK](https://github.com/BTBOT-src/BTBOT/blob/main/RQ2_1.png)
 
 
 ---
@@ -124,7 +124,7 @@ python3 box2.py
 ```
 
 - **Output result: **Executing this command will output the result consistent with **Fig.14.** in the paper in the terminal, as shown in the figure below. And **RQ2_2.png** is  generated that can intuitively display the results.
-
+![image-KICK](https://github.com/BTBOT-src/BTBOT/blob/main/RQ2_2.png)
 
 
 <hr style="height:4px;border-width:0;color:gray;background-color:gray">
@@ -164,7 +164,9 @@ python3 box2.py
 -  There are many reasons for task failure by Manual, including behavior tree grammar error, illegal characters, semantics not consisted with task specifications, etc. As a result, some tasks do not have specific error analysis.
   - The user study in the paper is shown in the first figure below. 
   - The last two figures are the results by Manual and BtBot supplemented in the review stage (two methods).
-
+![image-KICK](https://github.com/BTBOT-src/BTBOT/blob/main/US1.png)
+![image-KICK](https://github.com/BTBOT-src/BTBOT/blob/main/RQ2.png)
+![image-KICK](https://github.com/BTBOT-src/BTBOT/blob/main/RQ3.png)
 
 
 <hr style="height:4px;border-width:0;color:gray;background-color:gray">
