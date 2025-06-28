@@ -14,7 +14,7 @@ To reproduce this work, you need to have the **OpenAI API key** to prompt LLM (G
 
 Since the timeout of the task in the paper is 3600 seconds, the reproduction experiment will take a long time. In order to shorten the time required for reproduction, we provide a version with a task timeout of 360 seconds (This still requires a considerable amount of time). In the docker, the **/BTBOT** stores files with a task timeout of 3600 seconds. The **/BTBOT_short** stores files with a task timeout of 360 seconds.
 
-Since the output of LLMs is not **deterministic**, there may be **slight deviations** in the results, which is **normal**.
+Since the output of LLMs is not **deterministic**, there may be **slight deviations** between the results and the data in the paper, which is **normal**.
 
 Firstly select one of the directories. For example:
 
