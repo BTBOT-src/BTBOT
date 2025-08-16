@@ -2,6 +2,8 @@
 
 **Paper 'Multi-Modal Sketch-based Behavior Tree Synthesis' artifact evaluation**
 
+[![DOI](https://zenodo.org/badge/891549618.svg)](https://doi.org/10.5281/zenodo.16886045)
+
 This artifact evaluation is consistent with the order of the paper and is **presented following the order of RQ1 to RQ4 in paper**.
 
 ## Getting Started
