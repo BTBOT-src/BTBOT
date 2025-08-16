@@ -9,7 +9,7 @@ This artifact evaluation is consistent with the order of the paper and is **pres
 Our work has been deployed in a **Docker container** and packaged as an **image** for release. You can retrieve the **Docker image** using the following command:
 
 ```
-docker pull btbot123/btbot
+docker pull btbot123/btbot:latest
 ```
 
 To reproduce this work, you need to have an **OpenAI API key** to prompt LLM (GPT). Below, we will provide ***Kick-the-Tires*** to briefly show how BtBot solves tasks and generates BTs, and provide ***Step-by-Step Instructions*** to provide a detailed introduction to the experimental replication process in the paper.
