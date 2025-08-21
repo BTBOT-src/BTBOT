@@ -1,0 +1,1 @@
+Weijiang Hong, Zhenbang Chen, Minglong Li, Yuhan Li, Peishan Huang, and Ji Wang. 2023. Formal Verification Based Synthesis for Behavior Trees. In SETTA 2023. 72–91. https://doi.org/10.1007/978-981-99-8664-4\_5
